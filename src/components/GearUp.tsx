@@ -23,14 +23,14 @@ export default function ProductSlider() {
 
   return (
     <div className="w-full max-w-[1400px] mx-auto px-4">
-      <h1 className="text-2xl font-bold mb-6">Gear Up</h1>
+      <h1 className="text-2xl md:text-3xl font-bold mb-6 text-center md:text-left">Gear Up</h1>
       
       {/* Shop Sections */}
-      <div className="flex justify-between mb-12">
+      <div className="flex flex-col md:flex-row md:justify-between gap-8 mb-12">
         {/* Men's Section */}
         <div className="w-full md:w-[48%]">
           <div className="flex items-center justify-between mb-4">
-            <h2 className="text-xl">Shop Men's</h2>
+            <h2 className="text-xl md:text-2xl">Shop Men's</h2>
             <div className="flex gap-2">
               <Button
                 variant="outline"
@@ -56,40 +56,40 @@ export default function ProductSlider() {
             className="flex gap-4 overflow-x-auto pb-4 scrollbar-hide"
             style={{ scrollBehavior: 'smooth' }}
           >
-            <Card className="flex-none w-[250px] rounded-xl overflow-hidden">
+            <Card className="flex-none w-[200px] sm:w-[220px] md:w-[250px] rounded-xl overflow-hidden">
               <CardContent className="p-0">
                 <Image
                   src="/blue-shirt.svg"
                   alt="Nike Dri-FIT ADV TechKnit Ultra"
                   width={300}
                   height={200}
-                  className="w-full h-[200px] object-cover"
+                  className="w-full h-[180px] sm:h-[200px] object-cover"
                 />
                 <div className="p-4">
                   <div className="flex justify-between items-start mb-2">
-                    <h3 className="font-medium">Nike Dri-FIT ADV TechKnit Ultra</h3>
-                    <span className="text-sm">₹ 3,895</span>
+                    <h3 className="font-medium text-sm md:text-base">Nike Dri-FIT ADV TechKnit Ultra</h3>
+                    <span className="text-xs md:text-sm">₹ 3,895</span>
                   </div>
-                  <p className="text-sm text-muted-foreground">Men's Short-Sleeve Running Top</p>
+                  <p className="text-xs md:text-sm text-muted-foreground">Men's Short-Sleeve Running Top</p>
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="flex-none w-[250px] rounded-xl overflow-hidden">
+            <Card className="flex-none w-[200px] sm:w-[220px] md:w-[250px] rounded-xl overflow-hidden">
               <CardContent className="p-0">
                 <Image
                   src="/short.svg"
                   alt="Nike Dri-FIT Challenger"
                   width={300}
                   height={200}
-                  className="w-full h-[200px] object-cover"
+                  className="w-full h-[180px] sm:h-[200px] object-cover"
                 />
                 <div className="p-4">
                   <div className="flex justify-between items-start mb-2">
-                    <h3 className="font-medium">Nike Dri-FIT Challenger</h3>
-                    <span className="text-sm">₹ 2,495</span>
+                    <h3 className="font-medium text-sm md:text-base">Nike Dri-FIT Challenger</h3>
+                    <span className="text-xs md:text-sm">₹ 2,495</span>
                   </div>
-                  <p className="text-sm text-muted-foreground">Men's 18cm (approx.) 2-in-1 Versatile Shorts</p>
+                  <p className="text-xs md:text-sm text-muted-foreground">Men's 18cm (approx.) 2-in-1 Versatile Shorts</p>
                 </div>
               </CardContent>
             </Card>
@@ -99,7 +99,7 @@ export default function ProductSlider() {
         {/* Women's Section */}
         <div className="w-full md:w-[48%]">
           <div className="flex items-center justify-between mb-4">
-            <h2 className="text-xl">Shop Women's</h2>
+            <h2 className="text-xl md:text-2xl">Shop Women's</h2>
             <div className="flex gap-2">
               <Button
                 variant="outline"
@@ -125,40 +125,40 @@ export default function ProductSlider() {
             className="flex gap-4 overflow-x-auto pb-4 scrollbar-hide"
             style={{ scrollBehavior: 'smooth' }}
           >
-            <Card className="flex-none w-[250px] rounded-xl overflow-hidden">
+            <Card className="flex-none w-[200px] sm:w-[220px] md:w-[250px] rounded-xl overflow-hidden">
               <CardContent className="p-0">
                 <Image
                   src="/women-fit.svg"
                   alt="Nike Dri-FIT ADV Run Division"
                   width={300}
                   height={200}
-                  className="w-full h-[200px] object-cover"
+                  className="w-full h-[180px] sm:h-[200px] object-cover"
                 />
                 <div className="p-4">
                   <div className="flex justify-between items-start mb-2">
-                    <h3 className="font-medium">Nike Dri-FIT ADV Run Division</h3>
-                    <span className="text-sm">₹ 5,295</span>
+                    <h3 className="font-medium text-sm md:text-base">Nike Dri-FIT ADV Run Division</h3>
+                    <span className="text-xs md:text-sm">₹ 5,295</span>
                   </div>
-                  <p className="text-sm text-muted-foreground">Women's Long-Sleeve Running Top</p>
+                  <p className="text-xs md:text-sm text-muted-foreground">Women's Long-Sleeve Running Top</p>
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="flex-none w-[250px] rounded-xl overflow-hidden">
+            <Card className="flex-none w-[200px] sm:w-[220px] md:w-[250px] rounded-xl overflow-hidden">
               <CardContent className="p-0">
                 <Image
                   src="/women-truser.svg"
                   alt="Nike Fast"
                   width={300}
                   height={200}
-                  className="w-full h-[200px] object-cover"
+                  className="w-full h-[180px] sm:h-[200px] object-cover"
                 />
                 <div className="p-4">
                   <div className="flex justify-between items-start mb-2">
-                    <h3 className="font-medium">Nike Fast</h3>
-                    <span className="text-sm">₹ 3,795</span>
+                    <h3 className="font-medium text-sm md:text-base">Nike Fast</h3>
+                    <span className="text-xs md:text-sm">₹ 3,795</span>
                   </div>
-                  <p className="text-sm text-muted-foreground">Women's Mid-Rise 7/8 Running Leggings with Pockets</p>
+                  <p className="text-xs md:text-sm text-muted-foreground">Women's Mid-Rise 7/8 Running Leggings with Pockets</p>
                 </div>
               </CardContent>
             </Card>
